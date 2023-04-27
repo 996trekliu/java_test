@@ -69,9 +69,7 @@ public class SnowFlake {
                 //不同毫秒内，序列号置为0
                 sequence = 0L;
             }
-
             lastStmp = currStmp;
-
             long id = (currStmp - START_STMP) << TIMESTMP_LEFT //时间戳部分
                     | datacenterId << DATACENTER_LEFT       //数据中心部分
                     | machineId << MACHINE_LEFT             //机器标识部分
