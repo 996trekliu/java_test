@@ -99,6 +99,7 @@ public class SnowFlake {
         return mill;
     }
 
+
     private static long getNewstmp() {
         return System.currentTimeMillis();
     }
