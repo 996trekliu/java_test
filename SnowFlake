@@ -86,9 +86,6 @@ public class SnowFlake {
 
     public static void main(String[] args) {
         System.out.println(MAX_SEQUENCE);
-//        long currStmp = System.currentTimeMillis();
-//        System.out.println((currStmp - START_STMP));
-//        System.out.println(((currStmp - START_STMP) << TIMESTMP_LEFT));
     }
 
     private static long getNextMill() {
